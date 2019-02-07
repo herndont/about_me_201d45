@@ -1,0 +1,16 @@
+body {
+    background-color: lightgray;
+}
+h1, h2 {
+    text-align: center;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    outline-color: black;
+ }
+ul  {
+    text-align: center;
+    color: blue;
+    outline-color: black;
+    list-style-position: inside;
+ } 
+  
