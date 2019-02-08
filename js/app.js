@@ -3,9 +3,9 @@
 Creating a game that asks different facts about the creator.
 */
 
-console.log('The first question is just trying to get a name.')
+console.log('The first question is just trying to get a name.');
 
-var username, trey, ltrey, meet, lmeet, sports, lsports, plane, lplane, sponsored, lsponsored, origin, lorigin
+var username, trey, ltrey, meet, lmeet, sports, lsports, plane, lplane, sponsored, lsponsored, origin, lorigin, states, lstates, name_of_states;
 
 username = prompt('what is your name?');
 
@@ -20,7 +20,6 @@ if(username === '') {
 else {
   alert ('hello ' + username + ' , it is nice to meet you.');
 }
-
 
 /* The first game question is the start of the game. */
 
@@ -108,6 +107,25 @@ if(lorigin === 'yes' || lorigin === 'y'){
 
 if(lorigin === 'no' || lorigin === 'n'){
     alert ('Correct! Trey is from central Illinois.');
+}
+
+/* The Seventh game question starts here*/
+
+states = prompt('Question #7: Name a state that Trey has lived in other than Washington?');
+name_of_states = ['Illinois', 'South Carolina', 'Virginia'];
+
+var tries = 7;
+    console.log('Question #7 answer: ' + name_of_states);
+
+for (var index = 0; index < name_of_states.length; index++) { 
+    if(states === name_of_states[index]){
+        alert ('Correct, Trey has lived in ' + states);
+    break;
+    }
+} 
+
+    if(states !== name_of_states){
+        alert ('Sorry, Trey never lived in ' + states + ' state.');
 }
 
 
