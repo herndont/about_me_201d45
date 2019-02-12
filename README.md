@@ -10,6 +10,12 @@ Pair programming
 As of 2/10/19 Trey Herndon is the only person to have worked on these files. Updates by date will be put below this line for a full historical account of who was working in this code base and what they did to it.
 
 
+Progress Bars
+
+I used some progress bars next to my skillsets on the about page. I learned how to do this at the following link.
+https://www.w3schools.com/bootstrap/bootstrap_progressbars.asp
+
+
 Images
 
 There are multiple images on this page and I want to make sure that I give credit where credit is due.
