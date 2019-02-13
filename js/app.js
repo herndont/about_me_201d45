@@ -106,18 +106,18 @@ fourth_question();
 /* The fifth game question starts here*/
 
 function fifth_question(){
-sponsored = prompt('Question #5: Was Trey ever a sponsored athlete?');
-lsponsored = sponsored.toLowerCase();
-    console.log('Question #5 answer: ' + lsponsored);
+    sponsored = prompt('Question #5: Was Trey ever a sponsored athlete?');
+    lsponsored = sponsored.toLowerCase();
+        console.log('Question #5 answer: ' + lsponsored);
 
-if(lsponsored === 'yes' || lsponsored === 'y'){
-    alert ('Trey was a sponsored athlete! He was a member of a division I rifle team in college and competed nationally and internaitonally in competition.');
-    score++;
-}
+    if(lsponsored === 'yes' || lsponsored === 'y'){
+        alert ('Trey was a sponsored athlete! He was a member of a division I rifle team in college and competed nationally and internaitonally in competition.');
+        score++;
+    }
 
-if(lsponsored === 'no' || lsponsored === 'n'){
-    alert ('Wrong, Trey was a sponsored member of a competitive rifle team throughout highschool and college. Sponsorship was given by ammunition companies.');
-}
+    if(lsponsored === 'no' || lsponsored === 'n'){
+        alert ('Wrong, Trey was a sponsored member of a competitive rifle team throughout highschool and college. Sponsorship was given by ammunition companies.');
+    }
 }
 fifth_question();
 
